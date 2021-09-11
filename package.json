@@ -15,7 +15,8 @@
 		"start": "webpack serve --open --config ./webpack.config.js --mode development --hot",
 		"build": "webpack --config ./webpack.config.js --mode production",
 		"prebuild": "rimraf dist",
-		"postbuild": "tsc"
+		"postbuild": "tsc",
+		"capture": "tsc && node ./dist/lib/example.js"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.14.8",
