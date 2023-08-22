@@ -13,13 +13,11 @@
 
 # 基本使用
 
-1. install
-
-```
-yarn add puppeteer
-```
-
 ## 网页截图
+
+```
+pnpm capture
+```
 
 ```ts
 import * as puppeteer from 'puppeteer';
@@ -36,3 +34,9 @@ import * as puppeteer from 'puppeteer';
 ```
 
 1. `page.setViewport({ width: 200, height: 800 });` 可以设置视图宽高
+
+## 网页自动化
+
+```
+pnpm autoweb
+```
